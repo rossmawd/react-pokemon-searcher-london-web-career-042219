@@ -13,6 +13,7 @@ const PokemonCard = ({ pokemon, toggleImage }) => {
           <img src={url} alt="oh no!" />
         </div>
         <div className="content">
+          <hr/>
           <div className="header">{name}</div>
         </div>
         <div className="extra content">
